@@ -1,6 +1,16 @@
 aria2 - The ultra fast download utility
 =======================================
 
+介绍
+----------
+让Aria2无缝接管下載，加速下載体验，内建Aria2前端，任务管理更方便。
+Aria2 for chrome能够自动拦截浏览器下载任务并通过JSON-RPC接口导出到Aria2完成任务下载和管理，内置AriaNG作为管理前端。
+
+Aria2是一个轻量级的多协议多源命令行下载工具。它支持HTTP/HTTPS、FTP、SFTP、BitTorrent和Magnet link。下载地址：https://github.com/aria2/aria2/releases/latest
+
+小白用户可下载Aria2主程序后打开cmd输入" aria2c --enable-rpc "，使用默认设置开箱即用。关于Aria2如何在后台运行，以及详细的配置可自行Google。
+
+
 Disclaimer
 ----------
 This program comes with no warranty.
